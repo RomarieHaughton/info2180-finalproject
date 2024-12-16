@@ -1,0 +1,256 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #1f2937; /* Dark header */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 30px; /* Small dolphin logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Navigation Links in Header */
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: #60a5fa; /* Light blue hover effect */
+}
+
+/* Page Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Title */
+h1 {
+    font-size: 26px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+/* Filter Links */
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filters a:hover {
+    color: #0056b3;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+}
+
+table thead {
+    background-color: #1f2937;
+    color: white;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+table tr:nth-child(even) {
+    background-color: #f3f4f6; /* Light gray for alternate rows */
+}
+
+table tr:hover {
+    background-color: #e5e7eb; /* Slight highlight on hover */
+}
+
+/* Buttons */
+button, .button {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styling */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #374151;
+}
+
+form input, form textarea, form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Action Links (like "View Details") */
+.action-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.action-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Error and Success Messages */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Login container styles */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* Form styling */
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: #374151;
+}
+
+.login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    margin-top: 10px;
+}
